@@ -1,0 +1,39 @@
+nav{
+    background-color: @cor_primaria;
+    padding: 15px;
+    box-shadow: 3px 3px 15px black;
+
+    .menu{
+        display: inline;
+        padding: 0 26px;
+        font-size: 20px;
+        
+        a{
+            text-decoration: none;
+            color: black;
+
+            display: inline-block;
+
+            &:hover{
+                animation: tilt-shaking 0.25s infinite;
+                font-weight: bold;
+            }
+        }
+
+        & > img {
+            height: 40px;
+            width: 40px;
+            margin-bottom: -6px;
+        }
+    }
+
+    .logo{
+        float: right;
+        font-family: 'cherl.ttf';
+        font-size: 33px;
+        margin-top: -8px;
+        letter-spacing: 1.5px;
+    }
+}
+
+
